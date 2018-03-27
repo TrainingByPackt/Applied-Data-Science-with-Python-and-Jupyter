@@ -1,0 +1,36 @@
+Subtopic C: Parsing HTML in the Jupyter Notebook
+Exercise - Parsing HTML with Python in a Jupyter Notebook
+
+Step 22
+
+data = []
+for i, row in enumerate(body_content.find_all('tr')):
+    row_data = row.find_all('td')
+    if len(row_data) != 3:
+        print('Ignoring row {} because len(data) != 3'.format(i))
+        continue
+        
+    d1, d2, d3 = row_data
+    try:
+        d1 = d1.find('a').text
+        d2 = float(d2.text)
+        d3 = d3.find_all('span')[1].text
+    except:
+        print('Ignoring row {} because exception raised'.format(i))
+        continue
+        
+    data.append([d1, d2, d3])
+>> Ignoring row 0 because len(data) != 3
+>> Ignoring row 10 because exception raised
+>> Ignoring row 26 because exception raised
+>> Ignoring row 88 because exception raised
+>> Ignoring row 93 because len(data) != 3
+>> Ignoring row 94 because len(data) != 3
+>> Ignoring row 95 because len(data) != 3
+>> Ignoring row 96 because len(data) != 3
+>> Ignoring row 97 because len(data) != 3
+>> Ignoring row 98 because len(data) != 3
+>> Ignoring row 99 because len(data) != 3
+>> Ignoring row 100 because len(data) != 3
+>> Ignoring row 101 because len(data) != 3
+>> Ignoring row 102 because len(data) != 3
