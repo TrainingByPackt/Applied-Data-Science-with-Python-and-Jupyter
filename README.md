@@ -21,21 +21,35 @@ This course demonstrates how you can leverage the more advanced offerings of Jup
 
 ### Hardware requirements
 For an optimal student experience, we recommend the following hardware configuration:
-* **Processor**: 2.6 GHz or higher, preferably multi-core
-* **Memory**: 4GB RAM
-* **Hard disk**: 10GB or more
-* A projector 
+* **Processor**: i5 with minimum 2.6 GHz or higher, preferably multi-core
+* **Memory**: 8GB RAM
+* **Hard disk**: 10GB or more 
 * An Internet connection
 
 
 
 ### Software requirements
 You’ll also need the following software installed in advance:
-* Operating System: Windows (8 or higher).
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [Python 3](https://www.python.org/downloads/)
-* TensorFlow 1.4 or higher on [Windows: Follow instructions](https://www.tensorflow.org/install/install_windows)
-* [Keras 2](https://keras.io/#installation)
+* Python 3.5+
+* Anaconda 4.3+
+
+#### Python libraries included with Anaconda installation:
+* matplotlib 2.1.0+
+* ipython 6.1.0+
+* requests 2.18.4+
+* beautifulsoup4 4.6.0+
+* numpy 1.13.1+
+* pandas 0.20.3+
+* scikit-learn 0.19.0+
+* seaborn 0.8.0+
+* bokeh 0.12.10+
+
+#### Python libraries that require manual installation:
+* mlxtend
+* version_information
+* ipython-sql
+* pdir2
+* graphviz
 
 
 
