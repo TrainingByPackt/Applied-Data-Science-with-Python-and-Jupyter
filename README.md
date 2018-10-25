@@ -5,7 +5,7 @@
 
 
 
-# Applied Science with Python and Jupyter
+# Applied Data Science with Python and Jupyter
 This course demonstrates how you can leverage the more advanced offerings of Jupyter, and take your understanding of it to the next level. From performing efficient exploratory analysis of your data to creating interactive reports and dashboards, you will also learn how you can deploy and secure your Jupyter noteboook. You will understand how you can integrate third party plugins to Jupyter for a host of other tasks. You will also see how you can run your notebook in batch mode and use it non-interactively for your ETL and reporting tasks. The book will also show you can run scripts in different languages with the Jupyter notebook efficiently.By the end of this book, you will be comfortable in using the Jupyter notebook for not just your routine – but also much more complex tasks.
 
 
